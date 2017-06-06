@@ -24,7 +24,7 @@ class Example3ViewController: UIViewController {
         return true
       } else if url.scheme == "https" {
         let safari = SFSafariViewController(url: url)
-        self?.navigationController?.pushViewController(safari, animated: true)
+        self?.present(safari, animated: true, completion: nil)
         return false
       } else {
         return false
