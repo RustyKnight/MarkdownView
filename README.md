@@ -47,8 +47,10 @@ md.onTouchLink = { [weak self] request in
 
 ## Requirements
 
-iOS 9 or later.
-Swift3.0 or later.
+| Target            | Version |
+|-------------------|---------|
+| iOS               |  ~> 9.0 |
+| Swift             |  ~> 3.0 |
 
 ## Installation
 
